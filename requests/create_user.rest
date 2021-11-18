@@ -1,0 +1,34 @@
+POST http://localhost:3001/api/users/ 
+Content-Type: application/json
+//don't forget space next
+
+{
+    "notes": [],
+    "username": "root",
+    "name": "Superuser",
+    "password": "salainen"
+}
+
+###
+POST http://localhost:3001/api/users/ 
+Content-Type: application/json
+//don't forget space next
+
+{
+    "notes": [],
+    "username": "TarekMkh",
+    "name": "Mokhtar Tarek",
+    "password": "salainen"
+}
+
+###
+POST http://localhost:3001/api/users/ 
+Content-Type: application/json
+//don't forget space next
+
+{
+    "notes": [],
+    "username": "Tarek",
+    "name": "Mokhtar Tarek",
+    "password": "1234"
+}

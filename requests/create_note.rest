@@ -1,0 +1,32 @@
+POST http://localhost:3001/api/notes/ 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRhcmVrIiwiaWQiOiI2MGQ2ZjA3YzY4M2QyODBjNDQ2M2QyNTkiLCJpYXQiOjE2MjQ3MDM4OTd9.9qwBWUW_fWm6NRyVncLglCiYkhQ1Fi4cDwWEapEmhX4
+//don't forget space next
+
+{
+"content": "using Token Authorization: ", 
+"important": true
+}
+
+###
+POST http://localhost:3001/api/notes/ 
+Content-Type: application/json
+//won't work !!!!!!!!
+
+{
+"content": "this is it...", 
+"important": true,
+"userId":"60d5cb3726e4e61528e15664"
+}
+
+###
+POST http://localhost:3001/api/notes/ 
+Content-Type: application/json
+//don't forget space next
+
+{
+"content": "From vs code rest client", 
+"important": true
+}
+
+
